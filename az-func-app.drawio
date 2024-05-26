@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-26T12:09:16.477Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="khkEJJkgi8lqLug27Ui6" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-26T12:16:46.197Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="Og5UJ0W7nPl5pybD8fLl" version="24.4.8" type="github">
   <diagram name="Page-1" id="SmX3zbJ8QfUwmA-vFjmq">
-    <mxGraphModel dx="2143" dy="765" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2143" dy="1934" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,10 +16,21 @@
         <mxCell id="YwGUfQmkmMPsnKosTZOE-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YwGUfQmkmMPsnKosTZOE-1" target="YwGUfQmkmMPsnKosTZOE-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YwGUfQmkmMPsnKosTZOE-1" value="Function App" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="YwGUfQmkmMPsnKosTZOE-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YwGUfQmkmMPsnKosTZOE-1" target="YwGUfQmkmMPsnKosTZOE-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YwGUfQmkmMPsnKosTZOE-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YwGUfQmkmMPsnKosTZOE-1" target="YwGUfQmkmMPsnKosTZOE-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="262" y="139" />
+              <mxPoint x="557" y="139" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YwGUfQmkmMPsnKosTZOE-1" value="&amp;lt;&amp;lt;Python&amp;gt;&amp;gt;&lt;br&gt;Function App" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="202" y="174" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YwGUfQmkmMPsnKosTZOE-2" value="function" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="YwGUfQmkmMPsnKosTZOE-2" value="&amp;lt;&amp;lt;Python&amp;gt;&amp;gt;&lt;br&gt;function" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="502" y="174" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YwGUfQmkmMPsnKosTZOE-4" value="SQLServer" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
@@ -52,6 +63,20 @@
         <mxCell id="YwGUfQmkmMPsnKosTZOE-15" value="inclded in" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YwGUfQmkmMPsnKosTZOE-12" target="YwGUfQmkmMPsnKosTZOE-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="YwGUfQmkmMPsnKosTZOE-27" value="uses in Az" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.222;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="YwGUfQmkmMPsnKosTZOE-12" target="YwGUfQmkmMPsnKosTZOE-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YwGUfQmkmMPsnKosTZOE-28" value="uses in Az" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YwGUfQmkmMPsnKosTZOE-12" target="YwGUfQmkmMPsnKosTZOE-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-46" y="258" />
+              <mxPoint x="368" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YwGUfQmkmMPsnKosTZOE-30" value="uses during local dev" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YwGUfQmkmMPsnKosTZOE-12" target="YwGUfQmkmMPsnKosTZOE-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YwGUfQmkmMPsnKosTZOE-12" value="&amp;lt;&amp;lt;class&amp;gt;&amp;gt;&lt;br&gt;DefaultAzureCredential" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-145" y="174" width="198" height="60" as="geometry" />
         </mxCell>
@@ -81,6 +106,35 @@
         </mxCell>
         <mxCell id="YwGUfQmkmMPsnKosTZOE-26" value="Not Needed - was removed later" style="rounded=0;whiteSpace=wrap;html=1;opacity=30;" vertex="1" parent="1">
           <mxGeometry x="-465" y="1431" width="1250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="YwGUfQmkmMPsnKosTZOE-29" value="personal user" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-143" y="-60" width="194" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YwGUfQmkmMPsnKosTZOE-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YwGUfQmkmMPsnKosTZOE-31" target="YwGUfQmkmMPsnKosTZOE-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YwGUfQmkmMPsnKosTZOE-31" value="&amp;lt;&amp;lt;Class&amp;gt;&amp;gt;&lt;br&gt;ApiManagementClient" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="178" y="18" width="168" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YwGUfQmkmMPsnKosTZOE-39" value="depends on" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YwGUfQmkmMPsnKosTZOE-34" target="YwGUfQmkmMPsnKosTZOE-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YwGUfQmkmMPsnKosTZOE-34" value="&lt;div&gt;&amp;lt;&amp;lt;package&amp;gt;&amp;gt;&lt;/div&gt;pyodcb" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="462" y="-129" width="190" height="65" as="geometry" />
+        </mxCell>
+        <UserObject label="&amp;lt;&amp;lt;package&amp;gt;&amp;gt;&lt;br&gt;azure.mgmt.apimanagement" id="YwGUfQmkmMPsnKosTZOE-36">
+          <mxCell style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="157" y="-124" width="210" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="YwGUfQmkmMPsnKosTZOE-38" value="odbc driver" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="498" y="-288" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YwGUfQmkmMPsnKosTZOE-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YwGUfQmkmMPsnKosTZOE-40" target="YwGUfQmkmMPsnKosTZOE-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YwGUfQmkmMPsnKosTZOE-40" value="&amp;lt;&amp;lt;Class&amp;gt;&amp;gt;&lt;br&gt;Connection" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="473" y="18" width="168" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
